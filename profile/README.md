@@ -1,5 +1,5 @@
 # haretic
-haretic is a custom operating system for the rabbit r1, based on Android 17 and Linux 7.3 kernel released in October 2026.
+haretic is a custom operating system for the rabbit r1, based on Android 17 and Linux 7.3 kernel (mainline, released in October 2026).
 rabbitOS is replaced entirely. Custom kernel, rootfs, drivers, vendor.
 Android is based on LineageOS 24, with heavy UI modifications to fit the r1's 480x640 screen and wheel.
 
