@@ -9,6 +9,8 @@ Running into issues? Report a problem via [GitHub issues](https://github.com/har
 
 Port status: beta, stable during runtime (I am daily driving it)
 
+Official sister project to [andr36oid](https://github.com/andr36oid) - Android for the R36S series of ultra-cheap gaming consoles.
+
 ## What works
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://github.com/haretic/.github/raw/main/profile/tour.gif">
