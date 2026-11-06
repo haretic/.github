@@ -24,4 +24,5 @@ Port status: beta, stable during runtime (I am daily driving it)
 
 ## What doesn't
 - Calls and SMS untested
+- Camera quality may be reduced compared to rabbitOS (WIP)
 - tell me in GitHub issues
