@@ -5,7 +5,7 @@ Android is based on LineageOS 24, with heavy UI modifications to fit the r1's 48
 
 Install via the [haretic installer](https://github.com/haretic/installer/releases/)
 
-Port status: beta, stable during runtime
+Port status: beta, stable during runtime (I am daily driving it)
 
 ## What works
 - WiFi/Bluetooth/BLE
