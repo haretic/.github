@@ -1,6 +1,4 @@
 # haretic
-<img src="tour.gif" align="right" width="360" alt="haretic on the rabbit r1: boot, lock screen, wheel menus, Settings, installer and updates">
-
 haretic is a custom operating system for the rabbit r1, based on Android 17 and Linux 7.3 kernel (mainline, released in October 2026).
 rabbitOS is replaced entirely. Custom kernel, rootfs, drivers, vendor.
 Android is based on LineageOS 24, with heavy UI modifications to fit the r1's 480x640 screen and wheel.
@@ -10,6 +8,12 @@ Install via the [haretic installer](https://github.com/haretic/installer/release
 Port status: beta, stable during runtime (I am daily driving it)
 
 ## What works
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/haretic/.github/raw/main/profile/tour.gif">
+  <source media="(prefers-color-scheme: light)" srcset="https://github.com/haretic/.github/raw/main/profile/tour-light.gif">
+  <img src="tour.gif" align="right" width="320" alt="haretic on the rabbit r1: boot, lock screen, wheel menus, Settings, installer and updates">
+</picture>
+
 - WiFi/Bluetooth/BLE
 - RIL/Mobile data (telephony untested)
 - SoC sleep
