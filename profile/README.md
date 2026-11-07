@@ -10,13 +10,18 @@ Android is based on LineageOS 24, with heavy UI modifications to fit the r1's 48
 A lot of restrictions on the hardware imposed by rabbitOS have been [removed](https://github.com/haretic/release#rabbitos).
 
 ### Install via the **[haretic installer](https://github.com/haretic/installer/releases/)**
+Install steps should be simple - download the installer and plug in your rabbit while it is turned **off**.
+The tool will take care of all the requisite steps for you to install haretic from whatever base you are coming from, including installing the haretic loader and downloading the latest release.
 
+**Warning Ubuntu Touch users:** I have not tested an install from an active UT install. I don't know if the haretic flasher can flash to a bootable state from it.
 
-
+## Help
 
 Running into issues? Report a problem via [GitHub issues](https://github.com/haretic/release/issues/new/choose) or join our [Telegram](https://t.me/haretic_r1) group.
 
 Port status: beta, stable during runtime (I am daily driving it)
+
+## Links
 
 Official sister project to [andr36oid](https://github.com/andr36oid) - Android for the R36S series of ultra-cheap gaming consoles.
 
@@ -51,10 +56,9 @@ Official sister project to [andr36oid](https://github.com/andr36oid) - Android f
 
 ## versus rabbitOS
 - **This OS is a lot faster than rabbitOS.** This is not necessarily a fault of theirs and a win of mine because,
-- **This OS uses a lot more battery than rabbitOS.** The MT6765 is not officially supported in the mainline kernel, and while I have done power optimizations, I cannot be certain I can match those of the MediaTek vendor BSP.
-- **The OS ships an extreme power save mode** in Settings > Performance. This mode is close to what rabbitOS runs in, which preserves battery life on this unit.
-- The kernel is tweaked more for performance at the moment than battery life. Future updates will improve that.
-- 
+- **This OS uses a lot more battery than rabbitOS.** The MT6765 is not officially supported in the mainline kernel, and while I have done power optimizations, I cannot be certain I match those of the MediaTek vendor BSP. To help out with that though,
+- **The OS ships an extreme power save mode** in Settings > Performance. This mode is close to what rabbitOS runs in, which preserves battery life on this unit. The screen is set to 60Hz and the CPU is underclocked.
+- The kernel is tweaked more for performance at the moment than battery life. Future updates will improve that without sacrificing performance in those modes.
 
 ## versus GSIs on top of rabbitOS
 Pretty much better in all regards. 
