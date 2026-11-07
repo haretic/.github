@@ -42,6 +42,7 @@ Official sister project to [andr36oid](https://github.com/andr36oid) - Android f
 - OTA updates from the device itself
 - GAME performance modes and overclocks (hello bringus dingus)
 - Kernel Tweaks to customize aspects of the system performance
+- Optional rooted image with Magisk 30.7 (update to v31 is not installed since su prompts are desired)
 
 ## What doesn't
 - Calls and SMS untested
