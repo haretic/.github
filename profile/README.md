@@ -9,7 +9,10 @@ rabbitOS is replaced entirely. Custom kernel, rootfs, drivers, vendor.
 Android is based on LineageOS 24, with heavy UI modifications to fit the r1's 480x640 screen and wheel.
 A lot of restrictions on the hardware imposed by rabbitOS have been [removed](https://github.com/haretic/release#rabbitos).
 
-Install via the [haretic installer](https://github.com/haretic/installer/releases/)
+### Install via the **[haretic installer](https://github.com/haretic/installer/releases/)**
+
+
+
 
 Running into issues? Report a problem via [GitHub issues](https://github.com/haretic/release/issues/new/choose) or join our [Telegram](https://t.me/haretic_r1) group.
 
