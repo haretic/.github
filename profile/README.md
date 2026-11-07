@@ -40,6 +40,8 @@ Official sister project to [andr36oid](https://github.com/andr36oid) - Android f
 - Battery, fuel gauge and charging, with Lineage charging limit (down to 50%)
 - USB device mode and adb; emulate USB touchpads, keyboards, flash drives, CD ROM drives or a sound card using a USB C cable
 - OTA updates from the device itself
+- GAME performance modes and overclocks (hello bringus dingus)
+- Kernel Tweaks to customize aspects of the system performance
 
 ## What doesn't
 - Calls and SMS untested
