@@ -3,7 +3,6 @@
 *Philosophy: Trying to answer the question*
 > What if Teenage Engineering made the OS, too?
 
-
 haretic is a custom operating system for the rabbit r1, based on Android 17 and Linux 7.3 kernel (mainline, released in October 2026).
 rabbitOS is replaced entirely. Custom kernel, rootfs, drivers, vendor.
 Android is based on LineageOS 24, with heavy UI modifications to fit the r1's 480x640 screen and wheel.
@@ -13,17 +12,7 @@ A lot of restrictions on the hardware imposed by rabbitOS have been [removed](ht
 Install steps should be simple - download the installer and plug in your rabbit while it is turned **off**.
 The tool will take care of all the requisite steps for you to install haretic from whatever base you are coming from, including installing the haretic loader and downloading the latest release.
 
-**Warning Ubuntu Touch users:** I have not tested an install from an active UT install. I don't know if the haretic flasher can flash to a bootable state from it.
-
-## Help
-
-Running into issues? Report a problem via [GitHub issues](https://github.com/haretic/release/issues/new/choose) or join our [Telegram](https://t.me/haretic_r1) group.
-
-Port status: beta, stable during runtime (I am daily driving it)
-
-## Links
-
-Official sister project to [andr36oid](https://github.com/andr36oid) - Android for the R36S series of ultra-cheap gaming consoles.
+**Warning Ubuntu Touch users:** I have not tested installing from an active UT install. I don't know if the haretic flasher can flash to a bootable state from it.
 
 ## What works
 <picture>
@@ -66,5 +55,16 @@ Pretty much better in all regards.
 GSIs have been a buggy mess for me on the r1. 
 
 This OS runs fast and stable, and can last a while when the right performance profile is set.
+
+## Help
+
+Running into issues? Report a problem via [GitHub issues](https://github.com/haretic/release/issues/new/choose) or join our [Telegram](https://t.me/haretic_r1) group.
+
+Port status: beta, stable during runtime (I am daily driving it)
+
+## Links
+
+Official sister project to [andr36oid](https://github.com/andr36oid) - Android for the R36S series of ultra-cheap gaming consoles.
+
 
 It should theoretically be possible to flash GSIs on top of haretic. This was not tested during development, though.
