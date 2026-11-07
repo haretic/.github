@@ -48,3 +48,19 @@ Official sister project to [andr36oid](https://github.com/andr36oid) - Android f
 - Calls and SMS untested
 - Camera quality may be reduced compared to rabbitOS (WIP)
 - tell me in GitHub issues
+
+## versus rabbitOS
+- **This OS is a lot faster than rabbitOS.** This is not necessarily a fault of theirs and a win of mine because,
+- **This OS uses a lot more battery than rabbitOS.** The MT6765 is not officially supported in the mainline kernel, and while I have done power optimizations, I cannot be certain I can match those of the MediaTek vendor BSP.
+- **The OS ships an extreme power save mode** in Settings > Performance. This mode is close to what rabbitOS runs in, which preserves battery life on this unit.
+- The kernel is tweaked more for performance at the moment than battery life. Future updates will improve that.
+- 
+
+## versus GSIs on top of rabbitOS
+Pretty much better in all regards. 
+
+GSIs have been a buggy mess for me on the r1. 
+
+This OS runs fast and stable, and can last a while when the right performance profile is set.
+
+It should theoretically be possible to flash GSIs on top of haretic. This was not tested during development, though.
