@@ -42,7 +42,7 @@ The tool will take care of all the requisite steps for you to install haretic fr
 - Calls and SMS untested
 - ~~Camera quality may be reduced compared to rabbitOS~~ now properly calibrated
 - tell me in GitHub issues
-- people have reported issues with some 5GHz networks, which I could not yet replicate (under investigation)
+- ~~people have reported issues with some 5GHz networks, which I could not yet replicate~~ triaged; if you have WiFi reconnect loops: Settings > System > Kernel Tweaks > Wi-Fi > turn on "Stay on WPA2", restart the r1, then forget the network and add it again. WPA3 is the cause. Will be addressed.
 
 ## versus rabbitOS
 - **This OS is a lot faster than rabbitOS.** This is not necessarily a fault of theirs and a win of mine because,
