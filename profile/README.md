@@ -40,7 +40,7 @@ The tool will take care of all the requisite steps for you to install haretic fr
 
 ## What doesn't
 - Calls and SMS untested
-- ~~Camera quality may be reduced compared to rabbitOS~~ much better now
+- ~~Camera quality may be reduced compared to rabbitOS~~ now properly calibrated
 - tell me in GitHub issues
 - people have reported issues with some 5GHz networks, which I could not yet replicate (under investigation)
 
