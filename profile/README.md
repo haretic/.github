@@ -42,12 +42,13 @@ The tool will take care of all the requisite steps for you to install haretic fr
 - Calls and SMS untested
 - Camera quality may be reduced compared to rabbitOS (WIP)
 - tell me in GitHub issues
+- people have reported issues with some 5GHz networks, which I could not yet replicate (under investigation)
 
 ## versus rabbitOS
 - **This OS is a lot faster than rabbitOS.** This is not necessarily a fault of theirs and a win of mine because,
-- **This OS uses a lot more battery than rabbitOS.** The MT6765 is not officially supported in the mainline kernel, and while I have done power optimizations, I cannot be certain I match those of the MediaTek vendor BSP. To help out with that though,
+- ~~**This OS uses a lot more battery than rabbitOS.** The MT6765 is not officially supported in the mainline kernel, and while I have done power optimizations, I cannot be certain I match those of the MediaTek vendor BSP.~~ Recent builds have quite good energy efficiency while boosting quickly when the CPU gets load. To additionally help out with that though,
 - **The OS ships an extreme power save mode** in Settings > Performance. This mode is close to what rabbitOS runs in, which preserves battery life on this unit. The screen is set to 60Hz and the CPU is underclocked.
-- The kernel is tweaked more for performance at the moment than battery life. Future updates will improve that without sacrificing performance in those modes.
+- ~~The kernel is tweaked more for performance at the moment than battery life. Future updates will improve that without sacrificing performance in those modes.~~ Future updates have arrived, and the kernel smoothly scales depending on the workload. Battery life should not be impacted much versus other Android on r1 installs, especially in battery saver performance profile.
 
 ## versus GSIs on top of rabbitOS
 Pretty much better in all regards. 
@@ -60,7 +61,7 @@ This OS runs fast and stable, and can last a while when the right performance pr
 
 Running into issues? Report a problem via [GitHub issues](https://github.com/haretic/release/issues/new/choose) or join our [Telegram](https://t.me/haretic_r1) group.
 
-Port status: beta, stable during runtime (I am daily driving it)
+Port status: stable. daily driver for me, however it's not 100% bug-free
 
 ## Links
 
