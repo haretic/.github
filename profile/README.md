@@ -1,26 +1,31 @@
 # haretic
 
-*Philosophy: Trying to answer the question*
-> What if Teenage Engineering made the OS, too?
-
-haretic is a custom operating system for the rabbit r1, based on Android 17 and Linux 7.3.4 kernel (mainline, released in November 2026).
-rabbitOS is replaced entirely. Custom kernel, rootfs, drivers, vendor.
-Android is based on LineageOS 24, with heavy UI modifications to fit the r1's 480x640 screen and wheel.
-A lot of restrictions on the hardware imposed by rabbitOS have been [removed](https://github.com/haretic/release#rabbitos).
-
-### Install via the **[haretic installer](https://github.com/haretic/installer/releases/)**
-Install steps should be simple - download the installer and plug in your rabbit while it is turned **off**.
-The tool will take care of all the requisite steps for you to install haretic from whatever base you are coming from, including installing the haretic loader and downloading the latest release.
-
-**Warning Ubuntu Touch users:** I have not tested installing from an active UT install. I don't know if the haretic flasher can flash to a bootable state from it.
-
-## What works
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://github.com/haretic/.github/raw/main/profile/tour.gif">
   <source media="(prefers-color-scheme: light)" srcset="https://github.com/haretic/.github/raw/main/profile/tour-light.gif">
   <img src="tour.gif" align="right" width="320" alt="haretic on the rabbit r1: boot, lock screen, wheel menus, Settings, installer and updates">
 </picture>
 
+*Philosophy: Trying to answer the question*
+> What if Teenage Engineering made the OS, too?
+
+haretic is a custom operating system for the rabbit r1, based on Android 17 and Linux 7.3.4 kernel (mainline, released in November 2026).  
+
+rabbitOS is replaced entirely. Custom kernel, rootfs, drivers, vendor.  
+Android is based on LineageOS 24, with heavy UI modifications to fit the r1's 480x640 screen and wheel. A lot of restrictions on the hardware imposed by rabbitOS have been [removed](https://github.com/haretic/release#rabbitos).  
+
+Also, this is kind of a high effort shitpost. Don't get me wrong, the ROM is completely serious and great to use. But Bringus Studio's [video](https://www.youtube.com/watch?v=_ClDFu1WmtM) is what made me get the r1 to tinker with, and this ROM is a hommage to it.  
+The r1 could run much better than in the video. Jon, if you see this, please give it a shot.
+
+### Install via the **[haretic installer](https://github.com/haretic/installer/releases/)**
+Install steps should be simple - download the installer and plug in your rabbit while it is turned **off**.  
+The tool will take care of all the requisite steps for you to install haretic from whatever base you are coming from, including installing the haretic loader and downloading the latest release.
+
+**Warning Ubuntu Touch users:** I have not tested installing from an active UT install. I don't know if the haretic flasher can flash to a bootable state from it.
+
+Port status: stable. daily driver for me, however it's not 100% bug-free
+
+## What works
 - WiFi/Bluetooth/BLE
 - RIL/Mobile data (telephony untested)
 - SoC sleep
@@ -38,6 +43,8 @@ The tool will take care of all the requisite steps for you to install haretic fr
 - Kernel Tweaks to customize aspects of the system performance
 - Optional rooted image with Magisk 30.7 (update to v31 is not installed since su prompts are desired)
 
+It should theoretically be possible to flash GSIs on top of haretic. This was not tested during development, though.
+
 ## What doesn't
 - Calls and SMS untested
 - tell me in GitHub issues
@@ -49,21 +56,12 @@ The tool will take care of all the requisite steps for you to install haretic fr
 - ~~The kernel is tweaked more for performance at the moment than battery life. Future updates will improve that without sacrificing performance in those modes.~~ Future updates have arrived, and the kernel smoothly scales depending on the workload. Battery life should not be impacted much versus other Android on r1 installs, especially in battery saver performance profile.
 
 ## versus GSIs on top of rabbitOS
-Pretty much better in all regards. 
+Pretty much better in all regards.  
+GSIs have been a buggy mess for me on the r1.  
+This OS runs fast and stable, and can last a while when the right performance profile is set.  
 
-GSIs have been a buggy mess for me on the r1. 
-
-This OS runs fast and stable, and can last a while when the right performance profile is set.
-
-## Help
-
+## Help  
 Running into issues? Report a problem via [GitHub issues](https://github.com/haretic/release/issues/new/choose) or join our [Telegram](https://t.me/haretic_r1) group.
 
-Port status: stable. daily driver for me, however it's not 100% bug-free
-
 ## Links
-
 Official sister project to [andr36oid](https://github.com/andr36oid) - Android for the R36S series of ultra-cheap gaming consoles.
-
-
-It should theoretically be possible to flash GSIs on top of haretic. This was not tested during development, though.
