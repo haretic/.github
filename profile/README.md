@@ -30,6 +30,7 @@ Port status: stable. daily driver for me, however it's not 100% bug-free
 - RIL/Mobile data (telephony untested)
 - SoC sleep
 - PowerVR GE8320 GPU acceleration and 90Hz screen refresh rate (rabbitOS cap removed)
+- Vulkan-enabled for apps, games, SystemUI and hwcomposer
 - Camera (Hi-846) through libcamera with hardware ISP and painstaking manual calibration
 - front and back by turning the motor
 - Accelerometer and gyroscope
