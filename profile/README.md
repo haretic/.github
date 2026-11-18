@@ -54,7 +54,7 @@ It should theoretically be possible to flash GSIs on top of haretic. This was no
 - **This OS is a lot faster than rabbitOS.** This is not necessarily a fault of theirs and a win of mine because,
 - ~~**This OS uses a lot more battery than rabbitOS.** The MT6765 is not officially supported in the mainline kernel, and while I have done power optimizations, I cannot be certain I match those of the MediaTek vendor BSP.~~ Recent builds have quite good energy efficiency while boosting quickly when the CPU gets load. To additionally help out with that though,
 - **The OS ships an extreme power save mode** in Settings > Performance. This mode is close to what rabbitOS runs in, which preserves battery life on this unit. The screen is set to 60Hz and the CPU is underclocked.
-- ~~The kernel is tweaked more for performance at the moment than battery life. Future updates will improve that without sacrificing performance in those modes.~~ Future updates have arrived, and the kernel smoothly scales depending on the workload. Battery life should not be impacted much versus other Android on r1 installs, especially in battery saver performance profile.
+- ~~The kernel is tweaked more for performance at the moment than battery life. Future updates will improve that without sacrificing performance in those modes.~~ Future updates have arrived, and the kernel smoothly scales depending on the workload. Battery life should not be impacted versus other Android on r1 installs, especially in battery saver performance profile.
 
 ## versus GSIs on top of rabbitOS
 Pretty much better in all regards.  
