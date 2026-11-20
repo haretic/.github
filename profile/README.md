@@ -19,6 +19,7 @@ The r1 could run much better than in the video. Jon, if you see this, please giv
 
 ### Install via the **[haretic installer](https://github.com/haretic/installer/releases/)**
 **IT IS HIGHLY RECOMMENDED NOT TO INSTALL GOOGLE APPS UNLESS YOU WANT TO CERTIFY THE DEVICE YOURSELF**  
+**haretic ships Aurora Store as a Play Store alternative.**  
   
 Install steps should be simple - download the installer and plug in your rabbit while it is turned **off**.  
 The tool will take care of all the requisite steps for you to install haretic from whatever base you are coming from, including installing the haretic loader and downloading the latest release.
