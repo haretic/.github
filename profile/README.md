@@ -50,7 +50,7 @@ Port status: stable. daily driver for me, however it's not 100% bug-free
 It should theoretically be possible to flash GSIs on top of haretic. This was not tested during development, though.
 
 ## What doesn't
-- Calls and SMS untested
+- ~~Calls and SMS untested~~ Currently no VoLTE (WIP)
 - tell me in GitHub issues
 
 ## versus rabbitOS
