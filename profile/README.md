@@ -30,7 +30,7 @@ Port status: stable. daily driver for me, however it's not 100% bug-free
 
 ## What works
 - WiFi/Bluetooth/BLE
-- RIL/Mobile data (telephony untested)
+- RIL/Mobile data and reportedly SMS
 - SoC sleep
 - PowerVR GE8320 GPU acceleration and 90Hz screen refresh rate (rabbitOS cap removed)
 - Vulkan-enabled for apps, games, SystemUI and hwcomposer
@@ -50,7 +50,8 @@ Port status: stable. daily driver for me, however it's not 100% bug-free
 It should theoretically be possible to flash GSIs on top of haretic. This was not tested during development, though.
 
 ## What doesn't
-- ~~Calls and SMS untested~~ Currently no VoLTE (WIP)
+- Currently no VoLTE, regular calls or audio during calls (requires further MediaTek BSP kernel ports)
+- if your country or provider shut down 2G networks and you don't get any connectivity with your SIM card, install the latest nightly which advertises the r1 as a data-only device, which skips 2G networks
 - tell me in GitHub issues
 
 ## versus rabbitOS
